@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imprimez Votre Fichier</title>
+</head>
+<body>
+    <h1>Imprimez Votre Fichier</h1>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Fichier à imprimer:</label>
+        <input type="file" id="file" name="file"><br><br>
+        <label for="copies">Nombre de copies:</label>
+        <input type="number" id="copies" name="copies" value="1"><br><br>
+        <input type="submit" value="Imprimer">
+    </form>
+</body>
+</html>
